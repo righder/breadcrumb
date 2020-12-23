@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    color: white;
+}
+body{
+    background-color: rgb(43, 40, 40);
+    color: white;
+}
+
+.hero{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(image/b1.jpg);
+    height:63vh;
+    background-size:cover;
+    background-position:center;
+    text-align: center;
+}
+
+.title{
+   display:inline-block;
+    transform: translateY(90%);
+    
+}
+
+.title h1{
+    border :2px solid white;
+    font-size: 80px;
+    padding: 10px 10px 10px 10px;
+}
+
+.breadcrumb{
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: rgb(212, 207, 207);
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #1662a5;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #000000;
+}
+
+.contact-in{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+  background: transparent;
+  box-shadow: 0px 0px 10px 0px #666;
+}
+
+.contact-map{
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  padding-right: 12px;
+}
+
+.contact-map iframe{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.contact-form{
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  text-align: center;
+}
+
+.contact-form-txt{
+  width: 100%;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border: 1px solid #000000;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  background: rgb(26, 25, 25);
+}
+
+.contact-form-txt::placeholder{
+  color:  rgb(145, 118, 118);
+}
+
+.contact-form-textarea{
+  width: 100%;
+  height: 130px;
+  color: rgb(255, 255, 255);
+  border: 1px solid #000000;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  background: rgb(26, 25, 25);
+}
+
+.contact-form-textarea::placeholder{
+  color: rgb(145, 118, 118);
+}
+
+.contact-form-btn{
+  width: 100%;
+  height: 45px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 8px;
+  background:  tomato;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.contact-form-btn:hover{
+  background: rgb(141, 153, 158);
+}
